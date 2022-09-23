@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between">
+      <div class="px-6 w-full flex flex-wrap items-center justify-between">
+        <div class="flex items-center">
+          <button
+            class="navbar-toggler border-0 py-3 lg:hidden leading-none text-xl bg-transparent text-gray-600 hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContentY"
+            aria-controls="navbarSupportedContentY"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              class="w-5"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <p class="md:hidden mx-auto leading-none">Evolui Contabilidade</p>
+        <div class="navbar-collapse collapse grow items-center" id="navbarSupportedContentY">
+          <ul class="navbar-nav mr-auto lg:flex lg:flex-row">
+            <li class="nav-item">
+              <a class="nav-link block pr-2 lg:px-2 py-2 text-mainBlue hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="/" data-mdb-ripple="true" data-mdb-ripple-color="light">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link block pr-2 lg:px-2 py-2 text-mainBlue hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="/abrir-empresa.html" data-mdb-ripple="true" data-mdb-ripple-color="light">Abrir empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link block pr-2 lg:px-2 py-2 text-mainBlue hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="/trocar-contador.html" data-mdb-ripple="true" data-mdb-ripple-color="light">Trocar de contador</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+  
+    <!-- Jumbotron -->
+    <div class="bg-mainBlue">
+      <div class="text-gray-800 py-20 px-6 max-w-4xl mx-auto">
+        <div class="md:grid-cols-2 grid-cols-1 grid items-center">
+          <div>
+            <h1 class="text-mainYellow md:text-5xl text-2xl font-bold mt-0 mb-6">A nossa função é encontrar soluções</h1>
+            <h3 class="text-white md:text-1xl text-lg mb-8 md:max-w-md">Conheça nossa solução pensada para quem busca uma assessoria contábil de confiança para seu negócio crescer.</h3>
+            <a class="inline-block px-6 py-2.5 bg-mainYellow text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Entre em contato</a>
+          </div>
+          <img src="./assets/Task-amico.svg" class="max-h-96 mx-auto" />
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+  </header>
+  <main class="">
+    <section id="diferenciais" class="p-3 mt-8">
+      <div class="flex flex-wrap items-center justify-center max-w-4xl mx-auto">
+        <div class="grow-0 shrink-0 ba sis-auto w-full lg:w-4/12 md:mb-0 px-3">
+          <h2 class="text-3xl font-bold mb-6 uppercase text-mainBlue">
+            Por que <strong class="text-mainYellow">nós?</strong>
+          </h2>
+
+          <p class="text-gray-500 mb-12">
+            Nunc tincidunt vulputate elit. Mauris varius purus malesuada neque iaculis malesuada.
+            Aenean gravida magna orci, non efficitur est porta id. Donec magna diam.
+          </p>
+        </div>
+
+        <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 mb-md-0 px-3">
+          <div class="flex flex-col">
+            <div class="grow-0 shrink-0 basis-auto w-full mb-12">
+              <div class="flex">
+                <div class="shrink-0 mt-1">
+                  <svg class="w-4 h-4 text-mainBlue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="grow ml-4">
+                  <p class="font-bold mb-1 text-mainBlue">Suporte flexível</p>
+                  <p class="text-gray-500">
+                    Pellentesque mollis, metus nec fringilla aliquam. Donec consequat orci quis
+                    volutpat imperdiet.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="grow-0 shrink-0 basis-auto w-full mb-12">
+              <div class="flex">
+                <div class="shrink-0 mt-1">
+                  <svg class="w-4 h-4 text-mainBlue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="grow ml-4">
+                  <p class="font-bold mb-1 text-mainBlue">Tracking</p>
+                  <p class="text-gray-500">
+                    Magna lacus iaculis elit, quis pharetra varius. Aenean lectus ex, placerat id
+                    tellus in eros.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="grow-0 shrink-0 basis-auto w-full mb-12">
+              <div class="flex">
+                <div class="shrink-0 mt-1">
+                  <svg class="w-4 h-4 text-mainBlue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="grow ml-4">
+                  <p class="font-bold mb-1 text-mainBlue">Reporting</p>
+                  <p class="text-gray-500">
+                    Pellentesque varius ex vel consequat quis. Sed mauris ex, imperdiet sit amet
+                    nisl ac, ultrices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="diferenciais" class="bg-mainBlue p-3">
+      <h2 class="font-sans lg:text-5xl mx-auto text-center text-mainYellow my-5 font-semibold">Nossos diferenciais</h2>
+      <div class="px-6 max-w-4xl mx-auto">
+        <div class="grid grid-cols-3 gap-6 mb-6 p-5">
+          <div class="flex justify-center mt-5">
+            <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
+              <img src="./assets/technology.png" class="w-16 mx-auto" />
+              <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 text-center mt-2">Tecnologia</h5>
+              <p class="text-gray-700 text-base mb-4 text-center">
+                Usamos tecnologias a favor da sua empresa e entregamos mais agilidade, qualidade e transparência.
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center mb-5">
+            <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
+              <img src="./assets/piggy-bank.png" class="w-16 mx-auto" />
+              <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 text-center mt-2">Preço justo</h5>
+              <p class="text-gray-700 text-base mb-4 text-center">
+                Planos com preços justos e sem taxas escondidas
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center mt-5">
+            <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
+              <img src="./assets/handshake.png" class="w-16 mx-auto" />
+              <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 text-center mt-2">Atendimento personalizado</h5>
+              <p class="text-gray-700 text-base mb-4 text-center">
+                Flexibilidade para as suas necessidades; Disponíveis via telefone, email e chat sempre que necessário.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="container p-8 mx-auto mb-5" id="especialidades">
+    <h2 class="font-sans lg:text-5xl mx-auto text-center text-mainBlue my-5 font-semibold mb-8">Especialidades</h2>
+    <div class="text-gray-800 text-center">
+      <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-x-6 lg:gap-x-0 items-center">
+        <div class="mb-12 lg:mb-0 relative">
+          <img src="./assets/shop.png" class="w-16 mx-auto mb-2" />
+          <h6 class="font-medium text-gray-500">Pequenas empresas</h6>
+          <hr class="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
+        </div>
+
+        <div class="mb-12 lg:mb-0 relative">
+          <img src="./assets/heart.png" class="w-16 mx-auto mb-2" />
+          <h6 class="font-medium text-gray-500">Empresas de Saúde</h6>
+          <hr class="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
+        </div>
+
+        <div class="mb-12 md:mb-0 relative">
+          <img src="./assets/tray.png" class="w-16 mx-auto mb-2" />
+          <h6 class="font-medium text-gray-500">Bares & restaurantes</h6>
+          <hr class="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
+        </div>
+
+        <div class="relative">
+          <img src="./assets/worker.png" class="w-16 mx-auto mb-2" />
+          <h6 class="font-medium text-gray-500 mb-0">Construção Civil</h6>
+          <hr class="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
+        </div>
+
+        <div class="relative">
+          <img src="./assets/computer.png" class="w-16 mx-auto mb-2" />
+          <h6 class="font-medium text-gray-500 mb-0">Empresas de tecnologia</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section title="Planos e Custos" class="bg-mainBlue p-8 border-gray-900">
+    <h2 class="font-sans lg:text-5xl mx-auto text-center text-mainYellow my-5 font-semibold">Planos</h2>
+    <div class="grid sm:grid-cols-3 gap-6 lg:gap-x-12 max-w-4xl mx-auto mb-4">
+      <div class="mb-6 lg:mb-0">
+        <div class="block rounded-lg shadow-lg bg-white h-full">
+          <div class="p-6 text-center py-4">
+            <p class="uppercase mb-4 text-sm"><strong>Básico</strong></p>
+            <p class="mb-4 text-sm">
+              Para empresas com faturamento de até R$5.000,00
+            </p>
+            <h3 class="text-2xl mb-6">
+              <strong>R$ 195,00</strong>
+              <small class="text-gray-500 text-sm">/mês</small>
+            </h3>
+
+            <a type="button" 
+              class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+              href="#contato"  
+            >
+              Entre em contato
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-6 lg:mb-0">
+        <div class="block rounded-lg shadow-lg bg-white h-full">
+          <div class="p-6 text-center py-4">
+            <p class="uppercase mb-4 text-sm"><strong>Intermediário</strong></p>
+            <p class="mb-4 text-sm">
+              Para empresas com faturamento de até R$50.000,00
+            </p>
+            <h3 class="text-2xl mb-6">
+              <strong>R$ 337,00</strong>
+              <small class="text-gray-500 text-sm">/mês</small>
+            </h3>
+
+            <a type="button" 
+              class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+              href="#contato"  
+            >
+              Entre em contato
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-6 lg:mb-0">
+        <div class="block rounded-lg shadow-lg bg-white h-full">
+          <div class="p-6 text-center py-4">
+            <p class="uppercase mb-4 text-sm"><strong>Premium</strong></p>
+            <p class="mb-4 text-sm">
+              Para empresas com faturamento a partir de  R$50.000,00
+            </p>
+            <h3 class="text-2xl mb-6">
+              <strong>R$ 437,00</strong>
+              <small class="text-gray-500 text-sm">/mês</small>
+            </h3>
+
+            <a type="button" 
+              class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+              href="#contato"  
+            >
+              Entre em contato
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+  
+  <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
+    <div class="mx-6 py-10 text-center md:text-left">
+      <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="">
+          <h6 class="
+              uppercase
+              font-semibold
+              mb-4
+              flex
+              items-center
+              justify-center
+              md:justify-start
+            ">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cubes"
+              class="w-4 mr-3" role="img" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512">
+              <path fill="currentColor"
+                d="M488.6 250.2L392 214V105.5c0-15-9.3-28.4-23.4-33.7l-100-37.5c-8.1-3.1-17.1-3.1-25.3 0l-100 37.5c-14.1 5.3-23.4 18.7-23.4 33.7V214l-96.6 36.2C9.3 255.5 0 268.9 0 283.9V394c0 13.6 7.7 26.1 19.9 32.2l100 50c10.1 5.1 22.1 5.1 32.2 0l103.9-52 103.9 52c10.1 5.1 22.1 5.1 32.2 0l100-50c12.2-6.1 19.9-18.6 19.9-32.2V283.9c0-15-9.3-28.4-23.4-33.7zM358 214.8l-85 31.9v-68.2l85-37v73.3zM154 104.1l102-38.2 102 38.2v.6l-102 41.4-102-41.4v-.6zm84 291.1l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6zm240 112l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6z">
+              </path>
+            </svg>
+            Evolui Contabilidade
+          </h6>
+          <p>
+            Somos uma empresa com serviços e conteúdos completos na área contábil para facilitar e solucionar problemas, minimizando riscos, trazendo tranquilidade e segurança para você administrar bem o seu negocio. 
+          </p>
+        </div>
+        <div class="">
+          <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+            Especialidades
+          </h6>
+          <p class="mb-4">
+            <a href="#especialidades" class="text-gray-600">Pequenas</a>
+          </p>
+          <p class="mb-4">
+            <a href="#especialidades" class="text-gray-600">Empresas de Saúde</a>
+          </p>
+          <p class="mb-4">
+            <a href="#especialidades" class="text-gray-600">Bares e restaurantes</a>
+          </p>
+          <p class="mb-4">
+            <a href="#especialidades" class="text-gray-600">Construção civil</a>
+          </p>
+          <p>
+            <a href="#especialidades" class="text-gray-600">Empresas e profissionais de tecnologia</a>
+          </p>
+        </div>
+        <div class="">
+          <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+            Nosso site
+          </h6>
+          <p class="mb-4">
+            <a href="/abrir-empresa" class="text-gray-600">Abrir Empresa</a>
+          </p>
+          <p class="mb-4">
+            <a href="/trocar-contador.html" class="text-gray-600">Trocar de contabilidae</a>
+          </p>
+          <p>
+            <a href="#especialidades" class="text-gray-600">Especialidades</a>
+          </p>
+        </div>
+        <div class="">
+          <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+            Contato
+          </h6>
+          <p class="flex items-center justify-center md:justify-start mb-4">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
+              class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <path fill="currentColor"
+                d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
+              </path>
+            </svg>
+            Rua Caruxa, 21A - São Paulo, SP, 05776-360
+          </p>
+          <p class="flex items-center justify-center md:justify-start mb-4">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
+              class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512">
+              <path fill="currentColor"
+                d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+              </path>
+            </svg>
+            sac@evoluicontabilidade.com.br
+          </p>
+          <p class="flex items-center justify-center md:justify-start mb-4">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
+              class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512">
+              <path fill="currentColor"
+                d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+              </path>
+            </svg>
+            (11) 982710915
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center items-center lg:justify-between p-6 border-t border-gray-300">
+      <div class="mr-12 hidden lg:block">
+        <span>Siga a gente no Instagram:</span>
+      </div>
+      <div class="flex justify-center">
+        <a href="https://www.instagram.com/_evolui.contabilidade" class="mr-6 text-gray-600" target="_blank" rel="noreferrer noopener">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+            class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="text-center p-6 bg-gray-200">
+      <span>© 2022 Copyright:</span>
+      <a class="text-gray-600 font-semibold" href="https://github.com/victortineo">created by Victor Tineo</a>
+    </div>
+  </footer>
+
+  <script src="./tailwind-elements.min.js"></script>
+</body>
+</html>
