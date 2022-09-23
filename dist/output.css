@@ -3962,6 +3962,14 @@ html {
     margin-bottom: 0px;
   }
 
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .md\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
   .md\:hidden {
     display: none;
   }
